@@ -15,7 +15,8 @@
     "idf.pythonBinPathWin": "d:\\Archivos_de_programa\\Espressif_ToolChain\\.espressif\\python_env\\idf5.2_py3.11_env\\Scripts\\python.exe",
     "idf.toolsPathWin": "d:\\Archivos_de_programa\\Espressif_ToolChain\\.espressif",
     "files.associations": {
-        "stdio.h": "c"
+        "stdio.h": "c",
+        "firsttest.h": "c"
     },
     "idf.flashType": "UART"
 }

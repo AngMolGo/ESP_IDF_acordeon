@@ -15,7 +15,9 @@ Descripción: El objetivo de esta plantilla es ayudar a aprender a programar una
 
 #include <stdio.h> // Librería estandar de C para inputs/outputs
 
+#include "components/myModules/firstTest.h"
+
 void app_main(void) // Función principal de un programa de ESP32, el firmware busca esta función para empezar operaciones.
 {
-    printf("Hola mundo"); // Simple Hola mundo
+    saludar();
 }
