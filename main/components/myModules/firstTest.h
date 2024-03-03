@@ -4,6 +4,7 @@ Para implementar librería en C se recomienda usar dos archivos: miModulo.h y mi
 -> miModulo.h: Contiene las *declaraciones* de todas las variables de una biblioteca.
                Le informa al compilador sobre la existencia de una entidad en el programa.
                Puede incluir variables, funciones o clases.
+               Aquí también se incluyen las inclusiones de las librerías utilizadas.
 
 -> miModulo.c: Contiene las *definiciones* de las variables descritas en el archivo miModulo.h.
                Se proporcionan los detalles de la implementación de cada variable/función.

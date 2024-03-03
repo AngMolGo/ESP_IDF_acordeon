@@ -14,9 +14,7 @@ Para implementar librería en C se recomienda usar dos archivos: miModulo.h y mi
     se declaren en el archivo CMake.txt de la carpeta /main ***
 */
 
-#include <stdio.h>
-#include "firstTest.h" // Se incluye el archivo .h de nuestra biblioteca
+#ifndef MODULE_NAME_H_INCLUDED
+#define MODULE_NAME_H_INCLUDED
 
-void saludar(void){
-    printf("Hola mundo desde librería\n");
-}
+#endif // MODULE_NAME_H_INCLUDED
