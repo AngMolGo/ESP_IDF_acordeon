@@ -17,5 +17,5 @@ Objetivo: [OBJETIVO DE LA BIBLIOTECA]
 
 void app_main(void) // Función principal de un programa de ESP32, el firmware busca esta función para empezar operaciones.
 {
-    printf("### [INSERTAR DE QUÉ TRATA ESTE EJEMPLO] ###");
+    printf("\n### [INSERTAR DE QUÉ TRATA ESTE EJEMPLO] ###\n");
 }
