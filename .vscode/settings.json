@@ -16,7 +16,9 @@
     "idf.toolsPathWin": "d:\\Archivos_de_programa\\Espressif_ToolChain\\.espressif",
     "files.associations": {
         "stdio.h": "c",
-        "firsttest.h": "c"
+        "firsttest.h": "c",
+        "stdbool.h": "c",
+        "gpio.h": "c"
     },
     "idf.flashType": "UART"
 }

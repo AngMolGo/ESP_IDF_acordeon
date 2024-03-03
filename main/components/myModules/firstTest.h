@@ -9,6 +9,8 @@ Para implementar librería en C se recomienda usar dos archivos: miModulo.h y mi
                Se proporcionan los detalles de la implementación de cada variable/función.
                En el caso de funciones, se describe el cuerpo de la función.
 
+*** Por ultimo pero no menos importante, es importante que al momento de agregar nuevas librerías/archivos
+    se declaren en el archivo CMake.txt de la carpeta /main ***
 */
 
 #ifndef FIRST_TEST_H_INCLUDED

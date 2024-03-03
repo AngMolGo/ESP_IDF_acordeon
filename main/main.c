@@ -1,23 +1,21 @@
 /*
-###############################
-#### Plantilla de proyecto ####
-###############################
+###################################
+#### [INSERTAR DE QUÉ TRATA ESTE EJEMPLO] ####
+###################################
 Autor: Ing. Angel Molina
 
-Descripción: El objetivo de esta plantilla es ayudar a aprender a programar una esp32 desde
-             el SDK recomendado por Espressif. La intensión es desarrollar varios ejemplos
-             sencillos para la fácil comprensión de un estudiante que venga programando en
-             el Arduino IDE y no se le dificulte la transición.
+Descripción: Este es un archivo main.c de ejemplo para demostrar cómo se utilizan las funciones de la biblioteca.
 
-             En el arbol de archivos se encontrarán diferentes recursos para aprender a
-             utilizar los diferentes periféricos que ofrece la ESP32.
+Objetivo: [OBJETIVO DE LA BIBLIOTECA]
+
+**  Al momento de descargar la librería, será necesario copiar los archivos .h y .c en la carpeta /main/components
+*** Al momento de descargar la librería, será necesario incluir el archivo .c en el archivo CMake.txt ***
 */
 
 #include <stdio.h> // Librería estandar de C para inputs/outputs
-
-#include "components/myModules/firstTest.h"
+//BORRAR #include "components/myModules/[MODULE_NAME].h" // Aquí se debe agregar la librería que se va a utilizar
 
 void app_main(void) // Función principal de un programa de ESP32, el firmware busca esta función para empezar operaciones.
 {
-    saludar();
+    printf("### [INSERTAR DE QUÉ TRATA ESTE EJEMPLO] ###");
 }
