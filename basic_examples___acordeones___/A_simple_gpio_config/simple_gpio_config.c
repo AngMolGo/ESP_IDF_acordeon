@@ -21,8 +21,12 @@ esp_err_t init_pin(gpio_num_t pin, gpio_mode_t value){
     return ESP_OK;
 }
 
+esp_err_t pinOFF(gpio_num_t pin){
+    gpio_set_level(pin, 0);
+    return ESP_OK;
+}
 
-esp_err_t digitalWrite(gpio_num_t pin, bool value){
-    gpio_set_level(pin, value);
+esp_err_t pinON(gpio_num_t pin){
+    gpio_set_level(pin, 1);
     return ESP_OK;
 }

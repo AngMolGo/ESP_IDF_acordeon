@@ -17,11 +17,10 @@ Para implementar librería en C se recomienda usar dos archivos: miModulo.h y mi
 #ifndef SIMPLE_GPIO_CONFIG_H_INCLUDED
 #define SIMPLE_GPIO_CONFIG_H_INCLUDED
 
-#include "esp_err.h"
 #include "driver/gpio.h"
-#include <stdbool.h>
 
 esp_err_t init_pin(gpio_num_t pin, gpio_mode_t value);
-esp_err_t digitalWrite(gpio_num_t pin, bool value);
+esp_err_t pinON(gpio_num_t pin);
+esp_err_t pinOFF(gpio_num_t pin);
 
 #endif // SIMPLE_GPIO_CONFIG_H_INCLUDED

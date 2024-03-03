@@ -19,7 +19,11 @@
         "firsttest.h": "c",
         "stdbool.h": "c",
         "gpio.h": "c",
-        "simple_gpio_config.h": "c"
+        "simple_gpio_config.h": "c",
+        "simple_timer.h": "c",
+        "freertos.h": "c",
+        "timers.h": "c",
+        "esp_log.h": "c"
     },
     "idf.flashType": "UART"
 }

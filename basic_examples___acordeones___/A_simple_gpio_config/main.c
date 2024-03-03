@@ -22,5 +22,5 @@ void app_main(void) // Función principal de un programa de ESP32, el firmware b
     printf("### Configuración básica de un pin ###");
 
     init_pin(pin, GPIO_MODE_OUTPUT); // Configura el pin como salida
-    digitalWrite(pin, true);         // Cambia el valor de salida del pin
+    pinON(pin);         // Cambia el valor de salida del pin
 }
