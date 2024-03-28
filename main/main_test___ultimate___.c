@@ -15,7 +15,7 @@ Descripción: El objetivo de esta plantilla es ayudar a aprender a programar una
              *** Será necesario incluir los archivos .c de las librería que se vayan a utilizar en el archivo CMake.txt. ***
 */
 
-#include <stdio.h> // Librería estandar de C para inputs/outputs
+#include <stdio.h> // Librería estandar de C para inputs/outputs en la terminal
 
 // Éste es un include incluye una función de testeo para comprobar que se está importando mi librería de prueba. 
 // En esa dirección se incluirán las librerías personales que se crearán después.
