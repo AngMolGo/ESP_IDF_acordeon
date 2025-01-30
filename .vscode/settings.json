@@ -30,7 +30,9 @@
         "adc_oneshot.h": "c",
         "adc_types.h": "c",
         "simple_adc.h": "c",
-        "simple_freertos_task_creation.h": "c"
+        "simple_freertos_task_creation.h": "c",
+        "math.h": "c",
+        "task.h": "c"
     },
     "idf.flashType": "UART"
 }

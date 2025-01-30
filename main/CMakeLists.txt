@@ -1,2 +1,2 @@
-idf_component_register(SRCS "main.c" "components/myModules/firstTest.c" "components/myModules/simple_gpio_config.c" "components/myModules/simple_freertos_task_creation.c" #"components/myModules/[MODULE_NAME].c"
-                    INCLUDE_DIRS ".")
+idf_component_register(SRCS "main.c"
+                    INCLUDE_DIRS "." "./../components")
