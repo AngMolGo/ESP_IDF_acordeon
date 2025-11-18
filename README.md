@@ -23,23 +23,23 @@ esp_ws
 └── sdkconfig
 ```
 
-#### main/
+### ```main/```
 
 Es el directorio donde se almacena el código principal de la aplicación, funcionando como un workspace "básico" de una aplicación en lenguaje ```C```. Como es común, el código principal se programa en el archivo ```main.c```. 
 
 En este directorio se puede incluir un directorio ```include``` para dividir el código en archivos ```.c``` y ```.h```.
 
-#### CMakeLists.txt
+### ```CMakeLists.txt```
 
 Son los archivos que contienen las instrucciones y directivas escritas en el lenguaje de CMake que describen cómo compilar el código fuente, encontrar bibliotecas, configurar opciones del compilador y del enlazador, y dónde instalar los resultados (ejecutables o bibliotecas), permitiendo la construcción de software.
 
 Como se puede observar, existen dos archivos ```CMakeLists.txt``` en el workspace. El archivo ubicado en la raíz del espacio de trabajo es el archivo principal, el que le gestiona la compilación de toda la aplicación. El archivo ubicado en el directorio ```main``` se centra en definir los _archivos fuente_ principales, o sea, aquellos aquellos archivos ```.c``` que el código ```main.c``` utiliza y depende, y dónde se encuentran dichos archivos. Por lo que cada vez que se agregue un nuevo archivo o dependencia al código, se debe declarar en dicho archivo.
 
-#### build/
+### ```build/```
 
 Es aquel directorio del workspace donde se almacenan los archivos generados durante el proceso de compilación del proyecto, es el lugar donde reside el "producto final" listo para ser flasheado y ejecutado.
 
-#### sdkconfig
+### ```sdkconfig```
 
 El archivo ```sdkconfig``` contiene todas las opciones de configuración del proyecto generadas por la herramienta interactiva menuconfig de IDF. Este archivo define parámetros como:
 
@@ -65,7 +65,7 @@ idf.py menuconfig
 
 Luego IDF regenerará el ```sdkconfig``` con los valores seleccionados.
 
-#### components/
+### ```components/```
 
 El directorio components/ contiene módulos de software reutilizables que amplían la funcionalidad del proyecto. En ESP-IDF, un componente es una unidad lógica de código que puede incluir archivos .c, .h, bibliotecas precompiladas, archivos de configuración y su propio CMakeLists.txt.
 
