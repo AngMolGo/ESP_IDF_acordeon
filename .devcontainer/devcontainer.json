@@ -1,0 +1,27 @@
+{
+	"name": "ESP-IDF QEMU",
+	"build": {
+		"dockerfile": "Dockerfile"
+	},
+	"workspaceFolder": "/root/esp_idf_acordeon",
+	"customizations": {
+		"vscode": {
+			"settings": {
+				"terminal.integrated.defaultProfile.linux": "bash",
+				"idf.espIdfPath": "/opt/esp/idf",
+				"idf.toolsPath": "/opt/esp",
+				"idf.gitPath": "/usr/bin/git"
+			},
+			"extensions": [
+				"espressif.esp-idf-extension",
+				"espressif.esp-idf-web",
+				"ms-vscode.cpptools"
+			]
+		}
+	},
+	"runArgs": [
+        "--privileged",
+        "--volume=/dev:/dev",
+		"--volume=.:/root/esp_idf_acordeon"
+    ]
+}

@@ -1,4 +1,3 @@
 # Ignorar archivos y directorios generados por compilación
-**/build/**
+build
 sdkconfig
-.vscode/
